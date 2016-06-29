@@ -1,0 +1,23 @@
+{
+  "name": "meta-data",
+  "version": "1.0.0",
+  "description": "attach metadata to objects and arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "metadata",
+    "meta",
+    "data",
+    "clojure"
+  ],
+  "author": "Matthew Mueller",
+  "license": "MIT",
+  "dependencies": {
+    "component-clone": "0.2.2"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3"
+  }
+}
