@@ -21,8 +21,14 @@ npm install meta-data
 ```js
 meta = require('meta-data')
 let arr = meta([1, 2, 3], { source: 'clojure' })
+
 for (let n of arr) {
-  console.log(n) // 1...2...3...
+  console.log(n) // 1...2...3
 }
+
 console.log(arr.source) // clojure
 ```
+
+## License
+
+MIT
